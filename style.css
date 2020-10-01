@@ -1,10 +1,10 @@
 :root {
-	--darkest-color: #064273;
-	--lightest-color: #def3f6;
+	--darkest-color: #f6f5f5;
+	--lightest-color: #f6f5f5;
 	--highlight-color: #ffffff;
-	--bright-color-1: #1da2d8;
-	--bright-color-2: #76b6c4;
-	--bright-color-3: #7fcdff;
+	--bright-color-1: #ee6f57;
+	--bright-color-2: #00334e;
+	--bright-color-3: #145374;
 }
 
 body {
