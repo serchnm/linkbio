@@ -1,7 +1,7 @@
 :root {
-	--darkest-color: #f6f5f5;
-	--lightest-color: #f6f5f5;
-	--highlight-color: #ffffff;
+	--darkest-color: #f6f5f5; /* background  & labels */
+	--lightest-color: #f6f5f5; /* border */
+	--highlight-color: #ffffff; /* hover */
 	--bright-color-1: #ee6f57;
 	--bright-color-2: #00334e;
 	--bright-color-3: #145374;
@@ -84,3 +84,4 @@ a:hover {
 .light {
 	background: var(--bright-color-3);
 }
+https://wa.me/526631036896?text=Hola%20necesito%20informacion
