@@ -1,10 +1,28 @@
 :root {
-	--darkest-color: #f6f5f5; /* background  & labels */
-	--lightest-color: #f6f5f5; /* border */
-	--highlight-color: #ffffff; /* hover */
+	/* Light */
+	--darkest-color: #f6f5f5;
+	--lightest-title-color: #f6f5f5;
+	--lightest-label-color: #065c6f;
+	--lightest-color: #64958f;
+	--highlight-color: #e8ded2;
 	--bright-color-1: #ee6f57;
-	--bright-color-2: #00334e;
-	--bright-color-3: #145374;
+	--bright-color-2: #5eaaa8;
+	--bright-color-3: #00334e;
+	--bright-color-4: #145374;
+	--bright-color-5: #133b5c;
+	/* Dark */
+	/* --darkest-color: #133b5c;
+	--lightest-title-color: #faf3dd;
+	--lightest-label-color: #faf3dd;
+	--lightest-color: #64958f;
+	--highlight-color: #e8ded2;
+	--bright-color-1: #64958f;
+	--bright-color-2: #065c6f;
+	--bright-color-3: #5eaaa8;
+	--bright-color-4: #056676;
+	--bright-color-5: #1d2d50;
+	 */
+	
 }
 
 body {
@@ -40,7 +58,7 @@ body {
 }
 
 a {
-	color: var(--lightest-color);
+	color: var(--lightest-label-color);
 	text-decoration: none;
 }
 
@@ -53,7 +71,7 @@ a {
 	border: 1px solid var(--lightest-color);
 	box-sizing: border-box;
 	margin: 20px auto;
-	color: var(--darkest-color);
+	color: var(--lightest-title-color);
 	padding: 15px;
 	text-align: center;
 	transition: all 0.15s;
@@ -72,6 +90,11 @@ a:hover {
 	width: 50px;
 	margin: 3px;
 }
+.twitch-icon-list-img {
+	height: 47px;
+	width: 47px;
+	margin: 3px;
+}
 
 .dark {
 	background: var(--bright-color-1);
@@ -84,4 +107,9 @@ a:hover {
 .light {
 	background: var(--bright-color-3);
 }
-https://wa.me/526631036896?text=Hola%20necesito%20informacion
+.light-1 {
+	background: var(--bright-color-4);
+}
+.light-2 {
+	background: var(--bright-color-5);
+}
